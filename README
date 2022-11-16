@@ -1,0 +1,10 @@
+Lancement du script avec :
+
+```python3.8 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+python scrapper.py --input input.json --output output.json```
+
+Lancer les tests :
+
+```python -m pytest tests/testscrapping.py```
